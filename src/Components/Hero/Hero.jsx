@@ -1,11 +1,12 @@
 import React from 'react'
 import './Hero.css'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import profile_photo from '../../assets/profile_photo.jpg';
 
 const Hero = () => {
   return (
     <div id='home' className='hero'>
-        <img src="src/assets/profile_photo.jpg" alt="Sowmya" />
+        <img src={profile_photo} alt="Sowmya" />
         <h1><span>I'm Sowmya Tiwari</span> Computer Science Graduate</h1>
         <p>I am an Aspiring Software Engineer.</p>
         <div className="hero-action">
